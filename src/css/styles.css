@@ -1,0 +1,128 @@
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    -webkit-transition: all .1s ease;
+
+    -o-transition: all .1s ease;
+
+    transition: all .1s ease;
+
+    -webkit-box-sizing: inherit;
+
+            box-sizing: inherit;
+}
+*:before,
+*:after {
+        -webkit-box-sizing: inherit;
+                box-sizing: inherit;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: #157; 
+}
+
+h1 {
+    font-size: 22px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+.app-block {
+    max-width: 1024px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.comments-list {
+    list-style: none;
+}
+
+.comment-block {
+    font-size: 16px;
+    color: midnightblue;
+    background-color: aliceblue;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header {
+    height: 35px;
+    border-bottom: 2px solid black;
+}
+
+.author-name {
+    display: inline-block;
+}
+
+.date {
+    float: right;
+}
+
+.comment-text {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.block-addComment {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.add-name, 
+.add-comment {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.add-name {
+    display: block;
+    width: 100%;
+}
+
+.add-comment {
+    display: block;
+    width: 100%;
+    min-height: 100px;
+}
+
+.btn-comment-add,
+.btn-comment-clear,
+.btn-comment-del{
+    padding: 10px;
+    margin-right: 5px;
+    color: midnightblue;
+    font-size: 14px;
+    border: 2px solid white;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.btn-comment-add:hover,
+.btn-comment-clear:hover,
+.btn-comment-del:hover {
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,1);
+            box-shadow: 0 0 10px rgba(0,0,0,1);
+    border: 2px solid black;
+}
+
+.btn-comment-add,
+.btn-comment-clear {
+    background-color: aliceblue;
+}
+
+.btn-comment-del {
+    background-color: antiquewhite;
+}
