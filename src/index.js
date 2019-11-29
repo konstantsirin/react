@@ -112,7 +112,7 @@ class CommentsApp extends React.Component {
                     newAuthor = {this.state.newAuthor}
                     newComment = {this.state.newComment}
                     addComment = {this.addComment.bind(this)}
-                    clearComment = {this.clearComment}
+                    clearAddComment = {this.clearAddComment.bind(this)}
                     setStateAuthor = {ev => {
                         this.setState({newAuthor: ev.target.value});
                     }}
